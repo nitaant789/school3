@@ -1,0 +1,53 @@
+
+body {
+    text-align: center;
+    background-color: lightblue;
+}
+#album {
+    height: 250px;
+    width: 500px;
+}
+
+#MarqueeStyle {
+   background-color: black; 
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.travel.mainDiv {
+  float: left;
+width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+    
+}
+.travel.mainDiv img{
+    width: 100%;
+    height: 300px;
+}
+.travel.mainDiv hr{
+    width: 100%;
+}
+.travel.mainDiv h5,p {
+    margin-left: 20px;
+}
+#schoolAchievementsID {
+    padding-bottom: 10px;
+}
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i{
+    float: right;
+    
+}
+.movie_text div{
+    color: orange;
+}
